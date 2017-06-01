@@ -1,0 +1,16 @@
+// Global styles such as resets, colors, fonts etc.
+
+// CSS3 helpers from compass
+@import "compass/css3";
+
+// Normalize
+@import "normalize.scss";
+
+// Global Mixins
+@import "media-queries.scss";
+
+// Global Helpers
+@import "helpers.scss";
+
+// Our Grid system
+@import "grid.scss";

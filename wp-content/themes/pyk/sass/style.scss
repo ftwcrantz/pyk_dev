@@ -1,0 +1,21 @@
+
+$main-font-size: 18px;
+$main-font-size-desktop: 18px;
+
+// Import global mixins and helpers
+@import 'utils/module';
+
+// Import global styles such as resets, colors, fonts etc.
+@import 'base/module';
+
+// Import self contained components that can live on their own
+@import 'components/module';
+
+// Import styles for larger style components such as header, footer, nav etc.
+@import 'layout/module';
+
+// Import specific styles for specific pages that needs overrides
+@import 'pages/module';
+
+// Import 3rd party styles
+@import 'vendors/module';
