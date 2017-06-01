@@ -19,7 +19,7 @@ body {
 }
 
 // headers
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   color: $pri_grey;
   font-family: 'Circular', serif;
   letter-spacing: 0;
@@ -38,12 +38,11 @@ h1.bright {
   color: #fff;
 }
 h2 {
-  @include x-rem(font-size, 1.8);
-  color: $pri_text;
-  text-transform: uppercase;
-  font-weight: lighter;
+  @include x-rem(font-size, 2);
+  color: $pri_green;
+  font-weight: bolder;
   @include single-column {
-    @include x-rem(font-size, 1.4);
+    @include x-rem(font-size, 2);
   }
 }
 h3 {
@@ -52,8 +51,9 @@ h3 {
 
 // Text
 p {
-  @include x-rem(font-size, 1.7  );
+  @include x-rem(font-size, 2  );
   margin-bottom: 1.5em;
+  font-weight: bolder;
   @include single-column {
     @include x-rem(font-size, 1.9);
   }
@@ -88,23 +88,19 @@ p.sanserif {
 }
 
 // Links
-a {
-  @include x-rem(font-size, 1.6);
-  text-decoration: none;
-  color: $pri_text;
-  font-weight: bold;
-  font-family: 'Circular', serif;
-  border-bottom: 1px solid $pri_text;
-  &:hover {
-    color: rgba(0,0,0,0.5);
-    border-bottom: 1px solid rgba(0,0,0,0.5);
+  a {
+    @include x-rem(font-size, 2);
+    color: $pri_grey;
+    font-family: 'Circular', sans-serif;
+    border-bottom: 0;
+    text-decoration: none;
+    &:hover {
+      color: $pri_grey;
+      display:inline-block;
+      line-height:0.7em;
+      position: relative;
+      border-bottom: 5px solid #ADD0A2;
+      padding-bottom: 0px;
+      text-decoration: none;
+    }
   }
-}
-a.bright {
-  color: #fff;
-  border-bottom: 1px solid #fff;
-  &:hover {
-    color: rgba(255,255,255,0.5);
-    border-bottom: 1px solid rgba(255,255,255,0.5);
-  }
-}
