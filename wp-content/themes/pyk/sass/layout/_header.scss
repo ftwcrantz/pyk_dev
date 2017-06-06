@@ -39,12 +39,12 @@ header {
         border-top: solid $pri_text 1px;
         border-bottom: solid $pri_text 1px;
         a {
-          @include x-rem(font-size, 6.6);
+          @include x-rem(font-size, 6.0);
           color: #000;
           font-family: 'Circular', sans-serif;
-          letter-spacing: -3px;
+          letter-spacing: -1px;
           line-height: 1.5;
-          font-weight: lighter;
+          font-weight: bold;
           &:hover {
             color: #000;
             margin: 26px 0 17px 0;

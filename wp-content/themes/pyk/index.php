@@ -100,14 +100,11 @@
 <section id="contact-segment" class="wrapper content-section">
   <div class="row">
     <div class="image-text">
-      <img class="desktop-only" src="<?php echo get_template_directory_uri(); ?>/images/snubbe-1.jpg"/>
+      <img class="desktop-only" src="<?php echo get_template_directory_uri(); ?>/images/AoP_webbilder_4.jpg"/>
       <!-- <img class="mobile-only" src="<?php $custom = MultiPostThumbnails::get_post_thumbnail_id(get_post_type(), 'mobile-image', $post->ID); $custom=wp_get_attachment_image_src($custom,'mobile image'); echo $custom[0]; ?>"/> -->
       <p class="contact-header">Contact</p>
       <div class="contact-info hidden">
-        <span>Telefon + 46 707 53 08 69</span>
-        <span>Gatanistan 12, 124 56 Stockholm</span>
         <span>info@ahnstrom&pyk.se</span>
-        <a href="">Hitta hit</a>
       </div>
     </div>
   </div>

@@ -38,9 +38,10 @@ h1.bright {
   color: #fff;
 }
 h2 {
-  @include x-rem(font-size, 2);
+  @include x-rem(font-size, 2.2);
   color: $pri_green;
   font-weight: bolder;
+  letter-spacing: -1px;
   @include single-column {
     @include x-rem(font-size, 2);
   }
@@ -51,9 +52,10 @@ h3 {
 
 // Text
 p {
-  @include x-rem(font-size, 2  );
+  @include x-rem(font-size, 2.2);
   margin-bottom: 1.5em;
   font-weight: bolder;
+  letter-spacing: -1px;
   @include single-column {
     @include x-rem(font-size, 1.9);
   }
