@@ -25,6 +25,20 @@ header {
       width: 40px;
       float: right;
       line-height: 64px;
+      @include single-column {
+        line-height: 40px;
+      }
+      .menu-close {
+        display: none;
+      }
+      &.toggler-active {
+        .menu-open {
+          display: none;
+        }
+        .menu-close {
+          display: initial;
+        }
+      }
     }
   }
   #mobile-menu {
@@ -45,19 +59,22 @@ header {
           letter-spacing: -1px;
           line-height: 1.5;
           font-weight: bold;
+          @include single-column {
+            @include x-rem(font-size, 2.8);
+          }
           &:hover {
             color: #000;
-            margin: 26px 0 17px 0;
+            margin: 24px 0 14px 0;
             display:inline-block;
             line-height:0.7em;
             position: relative;
             border-bottom: 10px solid #ADD0A2;
             padding-bottom: 0px;
             text-decoration: none;
-          }
-          @include single-column {
-            @include x-rem(font-size, 4.6);
-            width: 80%;
+            @include single-column {
+              margin: 12px 0 7px 0;
+              border-bottom: 4px solid #ADD0A2;
+            }
           }
         }
       }

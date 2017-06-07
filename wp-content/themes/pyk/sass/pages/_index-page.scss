@@ -236,42 +236,27 @@
 #contact-segment {
 	margin-top: 40px;
 	.image-text {
-		cursor: pointer;
-		.contact-info {
-			margin: 0 auto;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			width: 30%;
-			-webkit-transform: translateX(-50%) translateY(-50%);
-			-moz-transform: translateX(-50%) translateY(-50%);
-			-ms-transform: translateX(-50%) translateY(-50%);
-			transform: translateX(-50%) translateY(-50%);
+		.contact-meta p {
+			color: #000;
+			font-family: 'Circular';
+			font-weight: bold;
+			line-height: 1.2;
+			@include x-rem(font-size, 2.2);
 			@include single-column {
-				width: 80%;
-			}
-			span,
-			a {
-				display: block;
-				color: #000;
-				font-family: 'Circular';
-				font-weight: bold;
-				line-height: 1.2;
-				@include x-rem(font-size, 2.2);
-				@include single-column {
-					@include x-rem(font-size, 1.8);
-				}
-				&.shadow {
-					text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
-					@include x-rem(font-size, 3.8);
-				}
-			}
-			a {
-				display: inline-block;
+				@include x-rem(font-size, 1.8);
+				text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
 			}
 		}
 	}
-	&.hidden-margin {
-		margin-bottom: 60px;
+	#footer {
+		margin-top: 30px;
+		border-top: 2px solid #939598;
+		padding-top: 30px;
+		.contact-footer {
+			p {
+				color: $pri_grey;
+				font-weight: bold;
+			}
+		}
 	}
 }

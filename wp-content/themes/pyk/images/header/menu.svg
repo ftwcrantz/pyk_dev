@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="33px" height="20px" viewBox="0 0 33 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>Group</title>
+<svg width="31px" height="20px" viewBox="0 0 31 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <g id="Group" transform="translate(1.000000, 0.000000)" stroke="#000000" stroke-width="2">
-            <path d="M0,19 L31,19" id="Line"></path>
-            <path d="M0,10 L31,10" id="Line"></path>
-            <path d="M0,1 L31,1" id="Line-Copy"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" fill-rule="nonzero" fill="#000000">
+            <path d="M0,20 L0,18 L31,18 L31,20 L0,20 Z M0,11 L0,9 L31,9 L31,11 L0,11 Z M0,2 L0,0 L31,0 L31,2 L0,2 Z" id="Combined-Shape"></path>
         </g>
     </g>
 </svg>
