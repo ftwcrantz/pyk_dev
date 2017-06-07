@@ -1,12 +1,13 @@
-# Ignore bundler config
-/.bundle
+# Keep these files out of the repo
+/wp-content/themes/twenty*
+/wp-content/upgrade
+/wp-content/uploads
+/sitemap.*
+/config/wp-config.php
+*.sql
 
-# Ignore the build directory
-/build
-
-# Ignore cache
-/.sass-cache
-/.cache
-
-# Ignore .DS_store file
-.DS_Store
+# Hidden files
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*
