@@ -28,17 +28,6 @@ header {
       @include single-column {
         line-height: 40px;
       }
-      .menu-close {
-        display: none;
-      }
-      &.toggler-active {
-        .menu-open {
-          display: none;
-        }
-        .menu-close {
-          display: initial;
-        }
-      }
     }
   }
   #mobile-menu {

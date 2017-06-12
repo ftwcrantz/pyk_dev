@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 30px;
+  a {
+  	border-bottom: none;
+  	text-decoration: none;
+    color: #000;
+    @include x-rem(font-size, 1.2);
+    font-family: 'Copper', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    &:hover {
+    	border-bottom: none;
+    }
+  }
+}

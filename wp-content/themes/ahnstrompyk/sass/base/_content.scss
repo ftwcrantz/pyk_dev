@@ -2,7 +2,7 @@
 
 //Body and Wrapper rules
 * {
-	margin: 0;
+  margin: 0;
 }
 
 html, body {
@@ -10,18 +10,18 @@ html, body {
   background-color: $background;
   margin-top: 60px;
   @include single-column {
-  	margin-top: 40px;
+    margin-top: 40px;
   }
 }
 
 img {
-	height: auto;
+  height: auto;
 }
 
 .wrapper {
   padding: 0 20px;
   clear: both;
   @include single-column {
-  	padding: 0 10px;
+    padding: 0 10px;
   }
 }
