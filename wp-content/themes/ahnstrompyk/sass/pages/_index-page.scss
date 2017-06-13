@@ -1,4 +1,24 @@
 .home {
+  #one,
+  #two,
+  #three {
+    img {
+      display: block;
+    }
+    .philosophy-close,
+    .about-close,
+    .projects-close {
+      position: relative;
+      width: 100%;
+      margin-bottom: 60px;
+      margin-top: 50px;
+      .menu-close {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
   .content-section {
     a.mini-toggler:hover {
       display: initial;
@@ -8,10 +28,10 @@
       padding-bottom: 0px;
       text-decoration: none;
     }
-    img {
-      display: block;
-    }
     margin-top: 40px;
+    @include single-column {
+      margin-top: 10px;
+    }
     .image-text {
       position: relative;
       p {
@@ -213,6 +233,33 @@
       width: 75%;
       padding-bottom: 20px;
       margin: 0 auto;
+    }
+  }
+}
+
+.philosophy-toggle {
+  p.header {
+    display: none;
+  }
+  .toggler-active {
+    p.header {
+      display: initial;
+      font-size: 60px !important;
+      @include single-column {
+        font-size: 28px !important;
+      }
+    }
+    p.initial {
+      display: none;
+    }
+  }
+  @include single-column {
+    p.header {
+      display: initial;
+      font-size: 28px !important;
+    }
+    p.initial {
+      display: none;
     }
   }
 }
