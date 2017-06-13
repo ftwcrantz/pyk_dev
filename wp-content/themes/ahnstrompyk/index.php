@@ -73,10 +73,6 @@
     </a>
   </div>
   <div id="footer" class="row">
-    <div class="contact-footer">
-      <?php the_content(); ?>
-      <span><a href="mailto:<?php echo get_post_meta($post->ID, 'epost', true); ?>"><?php echo get_post_meta($post->ID, 'epost', true); ?></a></span>
-    </div>
   </div>
 </section>
 <?php endwhile;?>

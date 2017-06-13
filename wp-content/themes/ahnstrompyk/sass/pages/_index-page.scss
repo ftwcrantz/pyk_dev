@@ -12,6 +12,9 @@
       display: block;
     }
     margin-top: 40px;
+    @include single-column {
+      margin-top: 10px;
+    }
     .image-text {
       position: relative;
       p {
