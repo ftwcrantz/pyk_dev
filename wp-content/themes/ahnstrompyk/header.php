@@ -16,11 +16,12 @@
 <header class="wrapper">
   <div class="row">
     <div class="icon-container">
+      <div class="hidden-box"></div>
+      <a href="" id="logo-home"><img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/images/header/logo.png" /></a>
       <a id="header-menu-open" class="icon-images">
         <img class="menu-open" src="<?php echo get_template_directory_uri(); ?>/images/header/menu.svg" />
         <img class="menu-close hidden" src="<?php echo get_template_directory_uri(); ?>/images/header/menu-close.svg" />
       </a>
-      <a href="" id="logo-home"><img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/images/header/logo.png" /></a>
     </div>
     <div id="mobile-menu" class="hidden">
       <ul>
