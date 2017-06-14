@@ -26,6 +26,5 @@ $(document).ready(function() {
  		$('.contact-title').toggleClass('hidden');
  		$('.contact-footer').toggleClass('hidden');
  		$('.contact-meta').toggleClass('hidden');
-
  	});
 });
